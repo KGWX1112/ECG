@@ -1,5 +1,10 @@
 This capstone project explores advanced deep learning methods for electrocardiogram (ECG) signal classification, emphasizing transformer-based models that capture both local and long-range temporal dependencies.
 
+📊 How to Run
+
+1. Download the ECG_Research.ipynb file within the repo.
+2. Run using programs that support .ipynb file such as Jupyter Notebook, Google Colab, or MS Visual Studio
+
 🔍 Problem
 
 Traditional models like K-Nearest Neighbors (KNN) struggle with ECG’s temporal structure. This project investigates whether hybrid CNN-Transformer architectures can improve classification performance while maintaining clinical relevance and interpretability.
@@ -24,13 +29,14 @@ Evaluation Metrics: Accuracy, F1-Score, Precision, Recall, Confusion Matrix
 
 Model	Accuracy	F1-Score (Avg)	Remarks
 
-A	94%	0.94	Strong feature learning with regularization
+A	    94%	      0.94	          Strong feature learning with regularization
 
-B	94%	0.94	Lightweight and efficient, ideal for embedded use
+B	    94%	      0.94	          Lightweight and efficient, ideal for embedded use
 
-C	99%	0.99	Outperformed others on clean, low-dimensional data
+C	    99%	      0.99	          Outperformed others on clean, low-dimensional data
 
 📌 Key Takeaways
+
 KNN surprisingly outperformed deep models on this dataset due to the clean, clustered feature space.
 
 Deep models are better suited for complex or high-dimensional ECG scenarios.
